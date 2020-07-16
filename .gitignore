@@ -37,6 +37,7 @@ build/
 
 # Visual Studio
 .vs/
+.vscode/
 
 # OS X
 .DS_Store
