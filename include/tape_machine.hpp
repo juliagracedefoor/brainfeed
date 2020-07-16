@@ -8,17 +8,17 @@ namespace bf
 {
     class tape_machine
     {
-        public:
+      public:
         const static std::string symbols;
         const static std::vector<unsigned char>::size_type capacity;
 
         void reset();
-        void eval(const char&);
+        void eval(const char &);
 
         // reset reverts the machine to an initial state anyways, right?
         tape_machine() { reset(); }
 
-        private:
+      private:
         // unsigned char stores exactly one byte (0 to 255)
         std::vector<unsigned char> cells;
         std::vector<unsigned char>::size_type data_pointer;
