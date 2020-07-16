@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Build folders
+out/
+build/
+
+# Visual Studio
+.vs/
+
+# OS X
+.DS_Store
